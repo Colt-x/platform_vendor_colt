@@ -58,11 +58,11 @@ PRODUCT_PACKAGES += \
     WellbeingPrebuilt
 
 # Fonts
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Fonts
 
 # CustomDoze
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     CustomDoze
 
 # Markup libs
@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
    libjamesdsp
 
 # MusicFX
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Eleven \
     MusicFX
 
@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/colt/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
 
 # Colt Packages
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     OmniStyle \
     Lawnchair
 
@@ -94,23 +94,23 @@ PRODUCT_COPY_FILES += \
     vendor/colt/config/permissions/privapp-permissions-custom.xml:system/etc/permissions/privapp-permissions-custom.xml
 
 # Weather
- PRODUCT_COPY_FILES +=  \
+# PRODUCT_COPY_FILES +=  \
      vendor/colt/prebuilt/common/etc/sysconfig/org.pixelexperience.weather.client.xml:system/etc/sysconfig/org.pixelexperience.weather.client.xml \
      vendor/colt/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml \
      vendor/colt/prebuilt/common/etc/permissions/privapp-permissions-colt.xml:system/etc/permissions/privapp-permissions-colt.xml
 
- PRODUCT_PROPERTY_OVERRIDES += \
+# PRODUCT_PROPERTY_OVERRIDES += \
      org.pixelexperience.weather.revision=2
 
- PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
      WeatherClient
 
 # SubstratumSignature Package
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
      vendor/colt/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
 
 # QS tile styles
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     QStileCircleTrim \
     QStileDefault \
     QStileDualToneCircle \
@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
     QStileCosmos
 
 # Omni's PoorMan Themes
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     DocumentsUITheme \
     ContactsTheme \
     MessagesTheme \
@@ -155,14 +155,14 @@ PRODUCT_PACKAGES += \
     GboardDarkTheme
 
 # QS header styles
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     QSHeaderBlack \
     QSHeaderGrey \
     QSHeaderLightGrey \
     QSHeaderAccent \
     QSHeaderTransparent
 
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     NotificationsBlack \
     NotificationsDark \
     NotificationsEnigma \
@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     NotificationsLight \
     NotificationsPrimary
 
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     AccentSluttyPink \
     AccentPixel \
     AccentGoldenShower \
@@ -222,7 +222,7 @@ PRODUCT_PACKAGES += \
     AccentQGreen \
     AccentElegantGreen
 
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     PrimaryAlmostBlack \
     PrimaryBlack \
     PrimaryEnigma \
@@ -240,7 +240,7 @@ PRODUCT_PACKAGES += \
     PrimaryBlueBlack
 
 # Switch themes
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     MD2Switch \
     OnePlusSwitch \
     StockSwitch \
